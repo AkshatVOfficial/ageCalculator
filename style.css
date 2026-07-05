@@ -34,6 +34,7 @@ label {
   font-weight: 500;
 }
 input {
+  color: rgb(91, 19, 193);
   font-size: 1.5rem;
   border: none;
   border-radius: 0.2rem;
