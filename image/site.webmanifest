@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "Age Calculator",
+  "short_name": "Age Calc",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
