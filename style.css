@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto, sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  justify-content: center;
+  align-items: center;
+}
+#top-icon {
+  font-size: 1.5rem;
+  color: rgb(121, 33, 252);
+  background-color: rgba(185, 158, 225, 0.364);
+  border-radius: 50%;
+  padding: 0.7rem;
+}
+#container {
+  flex: 1;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 10px 0px rgb(210, 186, 237);
+  margin: 1rem 0rem;
+  padding: 2rem 5rem;
+}
+#container div {
+  text-align: center;
+  line-height: 2.7rem;
+}
+label {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+input {
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: rgba(185, 158, 225, 0.364);
+  padding: 0.3rem 1rem;
+  outline: none;
+}
+button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: aliceblue;
+  background-color: rgb(121, 33, 252);
+  width: 100%;
+  cursor: pointer;
+  font-weight: 600;
+}
+button:hover {
+  background-color: rgba(121, 33, 252, 0.896);
+}
+button:active {
+  background-color: rgba(121, 33, 252, 0.752);
+}
+#boxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 1rem;
+}
+#b1,
+#b2,
+#b3 {
+  font-size: 1rem;
+  color: rgb(252, 33, 33);
+  background-color: rgba(225, 158, 158, 0.364);
+  padding: 0.5rem;
+}
+#b2 {
+  color: rgb(42, 214, 90);
+  background-color: rgba(168, 225, 158, 0.364);
+}
+#b3 {
+  color: rgb(214, 125, 42);
+  background-color: rgba(225, 203, 158, 0.364);
+}
+#boxes div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 20px 0px rgba(211, 209, 241, 0.727);
+  margin: 1rem;
+  line-height: 2rem;
+}
+#years,
+#months,
+#days {
+  font-size: 3rem;
+}
+footer {
+  display: flex;
+  margin-bottom: 1rem;
+  color: rgb(41, 47, 48);
+}
+span {
+  color: rgb(61, 76, 77);
+}
+#container {
+  transition: 0.3s;
+}
+
+#container:hover {
+  transform: translateY(5px);
+  box-shadow: 0 12px 25px rgba(147, 109, 201, 0.346);
+}
+
+@media (max-width: 550px) {
+  body {
+    font-size: 0.8rem;
+  }
+  #container {
+    box-shadow: none;
+    padding: 0;
+    line-height: 2.5rem;
+  }
+  #container:hover {
+    transform: none;
+    box-shadow: none;
+  }
+}

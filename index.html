@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- favicon  -->
+    <link rel="icon" type="image/png" href="image/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="image/favicon.svg" />
+<link rel="shortcut icon" href="image/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="Age Calc" />
+<link rel="manifest" href="image/site.webmanifest" />
+  </head>
+
+  <body>
+    <main id="container">
+      <div id="top">
+        <span id="top-icon" >
+          <i class="fa-solid fa-calendar";"></i>
+        </span>
+        <h1>Age Calculator</h1>
+        <p style="color: rgb(61, 76, 77);;">Calculate your exact age in years and months.</p>
+      </div>
+      <br />
+      <div id="mid">
+        <form>
+          <label for="age-input">Enter Your date of birth</label>
+          <br />
+          <input type="date" id="age-input" lang="en-GB"/>
+          <br />
+          <button id="calculate">Calculate Age</button>
+        </form>
+      </div>
+      <br />
+      <div id="bottom">
+        <h2>
+          <span style="color:  rgb(121, 33, 252);">────</span> Your Age <span style="color:  rgb(121, 33, 252);"
+            >────</span
+          >
+        </h2>
+        <div id="boxes">
+          <div>
+            <div id="b1" >
+              <i class="fa-solid fa-calendar";"></i>
+            </div>
+            <h2 id="years" style="color: rgb(252, 33, 33);">00</h2>
+            <span>Years</span>
+          </div>
+
+          <div>
+            <div id="b2" >
+              <i class="fa-solid fa-calendar";"></i>
+            </div>
+            <h2 id="months" style="color:rgb(42, 214, 90);">00</h2>
+            <span>Months</span>
+          </div>
+
+          <div style="display: none;">
+            <div id="b3" >
+              <i class="fa-solid fa-calendar";"></i>
+            </div>
+            <h2 id="days" style="color:rgb(214, 125, 42);;">00</h2>
+            <span>Days</span>
+          </div>
+        </div>
+      </div>
+      <p style="color: rgb(61, 76, 77);"><i class="fa-regular fa-heart" style="color: rgb(121, 33, 252);"></i> Time is precious. Make the most of every moment.</p>
+    </main>
+
+    <footer>Designed & Developed by Akshat ❤️</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
